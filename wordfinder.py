@@ -1,5 +1,7 @@
 """Word Finder: finds random words from a dictionary."""
 
+#python -m doctest -v file.py
+
 from random import seed, choice
 
 class WordFinder:

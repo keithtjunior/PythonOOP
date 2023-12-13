@@ -1,5 +1,7 @@
 from wordfinder import WordFinder
 
+#python -m doctest -v file.py
+
 class SpecialWordFinder(WordFinder):
     """
     A subclass of WordFinder used to return a random word from a file containing a list of words (words must not begin with '#' or be blank spaces)
